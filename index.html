@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Rankings</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    
+</head>
+<body class="container">
+    <br>
+
+  
+
+    <div class="card" style="width: 800px;">
+        <br>
+        <p style="font-size: larger; text-align: center;" > <b>Enter below the information of your favorite athlete.</b></p>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <table  id="list" class="table table-dark table-striped">
+                        <thead> 
+                            <tr>
+                                <th>Name</th>
+                                <th>Sport they play</th>
+                                <th>Reason Why</th>
+                                
+                              </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Cristano Ronaldo</td>
+                            <td>Soccer</td>
+                            <td>He's the Goat</td>
+                            
+                    </table> 
+                </div>
+
+            </div>
+
+
+            <div class="card" style="margin: 5px,5px,5px,5px; width: 400px; margin-left: 170px;">
+                <div class="card-body" >
+                    <div class="mb-2">
+
+                        <label for="exampleName" class="form-label"> Enter Athlete Name</label>
+                        <input type="text" class="form-control" id="name" >
+        
+                        <label for="exampleSport" class="form-label"> Enter Sport</label>
+                        <input type="text" class="form-control" id="sport" >
+        
+                        <label for="exampleReason" class="form-label"> Enter Reason Why</label>
+                        <input type="text" class="form-control" id="reason" >
+                        
+                        <br>
+                        <button id="add" class="btn btn-dark from-control">Add</button>
+                    </div>
+                </div>
+                
+            </div>
+           
+        </div>
+    </div>
+    
+    
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="ranks.js"></script>
+</body>
+</html>
